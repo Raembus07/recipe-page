@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+img {
+    width: 90%;
+    margin: 5%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 54px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: rgb(173, 98, 0);
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: rgb(163, 49, 99);
+}
+
+.recipes {
+    background-color: white;
+
+    width: 1000px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border-radius: 20px;
+}
+
+.title {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.preptime {
+    background-color: rgb(236, 192, 211, 0.2);
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+
+    border-radius: 10px;
+}
+
+.ingredients {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.instructions {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.nutrition {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    width: 90%;
+}
+
+
+.table {
+    border-collapse: collapse;
+}
+
+.tableElement {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    width: 100%;
+}
+
+.tableElementHead {
+    font-weight: normal;
+    text-align: left;
+
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.tableElementData {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(173, 98, 0);
+
+    width: 100%;
+    padding: 5px;
+    padding-left: 30px;
+    margin-right: 80%;
+
+}
+
+.spaceLine {
+    height: 1px;
+    background-color: rgb(177, 177, 177);
+    margin: 5%;
+}
+
+.spaceNewRecipe {
+    height: 2.5%;
+    background-color: antiquewhite;
+}
+
+.listSpaceLine {
+    width: 500px;
+    height: 1px;
+    background-color: rgb(177, 177, 177);
+}
+
+.listItem {
+    margin-top: 1.5%;
+}
