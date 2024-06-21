@@ -9,7 +9,7 @@ function Ingredients({ ingredients }) {
                     <li className="listItem" key={index}>{ingredient}</li>
                 ))}
             </ul>
-        </div> 
+        </div>
     );
 }
 
