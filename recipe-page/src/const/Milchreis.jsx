@@ -1,6 +1,7 @@
 
 const constants = {
-    title: "Milchreis",
+    img: "./assets/1600x900_vanille-milchreis.jpg",
+    title: "Rice pudding",
     text: "A delicious and creamy rice pudding, perfect for a comforting dessert. This traditional German dish is made with rice, milk, sugar, and a hint of vanilla.",
     imageDescription: "Picture of Milchreis",
     preptTime: ["Approximately 10 minutes", "30 minutes"],
