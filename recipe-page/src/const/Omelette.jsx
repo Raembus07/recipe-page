@@ -1,6 +1,5 @@
 
 const constants = {
-    img: "./assets/image-omelette.png",
     title: "Simple Omelette Recipe",
     text: "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.",
     imageDescription: "Picture of an omelette",

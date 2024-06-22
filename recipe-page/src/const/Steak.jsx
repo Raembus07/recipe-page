@@ -1,5 +1,4 @@
 const constants = {
-    img: "./assets/steakimg.png",
     title: "Classic Steak Recipe",
     text: "A simple and delicious recipe for a perfectly cooked steak. This dish is perfect for a special occasion or a hearty meal.",
     imageDescription: "Picture of a cooked steak",

@@ -1,5 +1,4 @@
 const constants = {
-    img: "./assets/curry-rice.jpg",
     title: "Curry Rice",
     text: "A flavorful and aromatic curry rice, perfect for a comforting meal. This dish is made with rice, vegetables, and a blend of spices for a delightful experience.",
     imageDescription: "Picture of Curry Rice",
