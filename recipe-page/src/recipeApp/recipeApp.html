@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Rezept Details</title>
+    <title>Recipe Details</title>
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 </head>
@@ -52,6 +52,20 @@
             }),
             document.getElementById('app')
         );
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            let pageTitle = 'Recipe Details';
+
+            if (recipeName) {
+            pageTitle += ` | ${recipeName.charAt(0).toUpperCase() + recipeName.slice(1)}`; // Rezeptname mit großem Anfangsbuchstaben
+            }
+
+            document.title = pageTitle;
+            const icon = document.createElement('link');
+            icon.rel = 'icon';
+            icon.href = img;
+            document.head.appendChild(icon);
+        });
     </script>
 </body>
 
