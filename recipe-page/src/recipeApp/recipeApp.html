@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <title>Rezept Details</title>
@@ -7,20 +8,51 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
+
 <body>
     <div id="app"></div>
 
     <script type="text/babel" src="RecipeApp.jsx"></script>
 
     <script type="text/babel">
+        import RecipeApp from './RecipeApp.jsx';
+        import omelette from '../const/Omelette.jsx';
+        import steak from '../const/Steak.jsx';
+        import milkrice from '../const/Milkrice.jsx';
+        import curryrice from '../const/Curryrice.jsx';
+
         const urlParams = new URLSearchParams(window.location.search);
         const recipeName = urlParams.get('recipe');
-    
+        const props = omelette;
+        const img = require('../assets/image-omelette.png');
+
+        if (recipeName == 'steak') {
+            props = steak;
+            img = require('../assets/steakimg.png');
+        } else if (recipeName == 'milkrice') {
+            props = milkrice;
+            img = require('../assets/milchreisImg.jpg');
+        } else if (recipeName == 'curryrice') {
+            props = curryrice;
+            img = require('../assets/curryreis-adobe-stock-ld1976.png');
+        }
 
         ReactDOM.render(
-            <RecipeApp recipeName={recipeName} />,
+            <RecipeApp
+                img={img}
+                imgDescription={props.imageDescription}
+                title={props.title}
+                text={props.text}
+                total={props.preptTime[0]}
+                preparation={props.preptTime[1]}
+                cooking={props.preptTime[1]}
+                ingredients={props.ingredients}
+                instructions={props.instructions}
+                nutrition={props.nutrition}
+            />,
             document.getElementById('app')
         );
     </script>
 </body>
+
 </html>

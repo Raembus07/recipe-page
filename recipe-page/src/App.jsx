@@ -4,7 +4,7 @@ import steakImg from './assets/steakimg.png';
 import curryriceImg from './assets/curryreis-adobe-stock-ld1976.png';
 
 import omelette from './const/Omelette';
-import milchreis from './const/Milchreis';
+import milchreis from './const/Milkrice';
 import steak from './const/Steak';
 import curryrice from './const/Curryrice';
 import Card from './card/Card';
