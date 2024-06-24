@@ -1,5 +1,5 @@
 const constants = {
-    title: "Classic Steak Recipe",
+    title: "Steak Recipe",
     text: "A simple and delicious recipe for a perfectly cooked steak. This dish is perfect for a special occasion or a hearty meal. It's incredibly flavorful and juicy.",
     imageDescription: "Picture of a cooked steak",
     prepTime: ["Approximately 20 minutes", "10 minutes"],
@@ -15,7 +15,7 @@ const constants = {
     instructions: [
         {
             title: "Season the steak:",
-            text: "Generously season both sides of the steak with salt and pepper. Let it sit at room temperature for about 20 minutes to ensure even cooking."
+            text: "Generously season both sides of the steak with salt and pepper. Let it sit at room temperature for about 20 minutes."
         },
         {
             title: "Heat the pan:",
@@ -23,23 +23,23 @@ const constants = {
         },
         {
             title: "Sear the steak:",
-            text: "Carefully place the steak in the hot pan. Sear for 2-3 minutes on each side until a golden-brown crust forms."
+            text: "Carefully place the steak in the hot pan. Sear for 2-3 minutes on each side until golden-brown crust forms."
         },
         {
             title: "Add butter and aromatics:",
-            text: "Reduce heat to medium-low. Add the butter, garlic, and herbs (if using) to the pan. Spoon the melted butter over the steak continuously for 1-2 minutes."
+            text: "Reduce heat to medium-low. Add the butter, garlic, and herbs (if using) to the pan. Spoon the melted butter over the steak for 1-2 minutes."
         },
         {
             title: "Check for doneness:",
-            text: "Use a meat thermometer to check the internal temperature of the steak. For medium-rare, it should be around 130°F (54°C). Adjust cooking time as needed."
+            text: "Use a meat thermometer to check the internal temperature of the steak. For medium-rare, it should be around 130°F (54°C)."
         },
         {
             title: "Rest and serve:",
-            text: "Remove the steak from the pan and let it rest for 5-10 minutes on a cutting board. Slice against the grain and serve hot."
+            text: "Remove the steak from the pan and let it rest for 5-10 minutes. Slice against the grain and serve hot."
         },
         {
             title: "Enjoy:",
-            text: "Serve the steak with your favorite sides and enjoy your delicious meal."
+            text: "Serve the steak with your favorite sides and enjoy your meal."
         }
     ],
     nutrition: ["679kcal", "0g", "54g", "49g"]

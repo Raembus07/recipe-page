@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+
     <title>Rezept Details</title>
     <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
@@ -10,7 +11,6 @@
 
 <body>
     <div id="app"></div>
-
     <script type="module">
         import RecipeApp from './RecipeApp.jsx';
         import omelette from '../const/Omelette.jsx';
@@ -43,9 +43,9 @@
                 imgDescription: props.imageDescription,
                 title: props.title,
                 text: props.text,
-                total: props.preptTime[0],
-                preparation: props.preptTime[1],
-                cooking: props.preptTime[1],
+                total: props.prepTime[0],
+                preparation: props.prepTime[1],
+                cooking: props.prepTime[1],
                 ingredients: props.ingredients,
                 instructions: props.instructions,
                 nutrition: props.nutrition

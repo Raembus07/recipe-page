@@ -3,7 +3,7 @@ const constants = {
     title: "Rice pudding",
     text: "A delicious and creamy rice pudding, perfect for a comforting dessert. This traditional German dish is made with rice, milk, sugar, and a hint of vanilla.",
     imageDescription: "Picture of Milchreis",
-    preptTime: ["Approximately 10 minutes", "30 minutes"],
+    prepTime: ["Approximately 10 minutes", "30 minutes"],
     ingredients: ["1 cup of short-grain rice", "4 cups of milk", "1/2 cup of sugar", "1 teaspoon of vanilla extract", "Cinnamon, for garnish"],
     instructions: [
         {

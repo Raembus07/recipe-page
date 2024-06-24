@@ -10,9 +10,9 @@ function RecipeApp(props) {
           imgDescription={props.imageDescription}
           title={props.title}
           text={props.text}
-          total={props.preptTime[0]}
-          preparation={props.preptTime[1]}
-          cooking={props.preptTime[1]}
+          total={props.prepTime[0]}
+          preparation={props.prepTime[1]}
+          cooking={props.prepTime[1]}
           ingredients={props.ingredients}
           instructions={props.instructions}
           nutrition={props.nutrition}
@@ -26,7 +26,7 @@ RecipeApp.defaultProps = {
   imgDescription: 'defaultimg',
   title: 'defaulttitle',
   text: 'defaulttext',
-  preptTime: ["default"],
+  prepTime: ["default"],
   ingredients: ["default"],
   instructions: ["default"],
   nutrition: ["default"]
