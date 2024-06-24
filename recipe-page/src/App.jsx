@@ -23,7 +23,7 @@ function App() {
             text={omelette.text}
           />
         </div>
-        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp/recipeApp.html?recipe=milchreis')}>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp/recipeApp.html?recipe=milkrice')}>
           <Card
             img={milchreisImg}
             imgDescription={milchreis.imgDescription}
