@@ -23,7 +23,7 @@ function App() {
             text={omelette.text}
           />
         </div>
-        <div className='card' onClick={() => window.open('https://www.google.com')}>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
           <Card
             img={milchreisImg}
             imgDescription={milchreis.imgDescription}
@@ -31,7 +31,7 @@ function App() {
             text={milchreis.text}
           />
         </div>
-        <div className='card' onClick={() => window.open('recipeApp.html')}>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
           <Card
             img={steakImg}
             imgDescription={steak.imgDescription}
@@ -39,7 +39,7 @@ function App() {
             text={steak.text}
           />
         </div>
-        <div className='card' onClick={() => window.open('recipeApp.html')}>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
           <Card
             img={curryriceImg}
             imgDescription={curryrice.imgDescription}
