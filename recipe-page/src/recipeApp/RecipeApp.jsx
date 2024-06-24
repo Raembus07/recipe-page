@@ -1,5 +1,5 @@
 import Recipe from '../Recipe';
-import './RecipeApp.css';
+import './recipeApp.css';
 
 function RecipeApp(props) {
   return (
@@ -20,6 +20,16 @@ function RecipeApp(props) {
       </div>
     </>
   );
+}
+RecipeApp.defaultProps = {
+  img: '',
+  imgDescription: 'defaultimg',
+  title: 'defaulttitle',
+  text: 'defaulttext',
+  preptTime: ["default"],
+  ingredients: ["default"],
+  instructions: ["default"],
+  nutrition: ["default"]
 }
 
 export default RecipeApp;

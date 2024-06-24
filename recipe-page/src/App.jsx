@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div className='appElements'>
-        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
+        <div className='card' onClick={() => window.open(`${window.location.origin}/recipe-page/src/recipeApp/recipeApp.html?recipe=omelette`)}>
           <Card
             img={omeletteImg}
             imgDescription={omelette.imgDescription}
@@ -23,7 +23,7 @@ function App() {
             text={omelette.text}
           />
         </div>
-        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp/recipeApp.html?recipe=milchreis')}>
           <Card
             img={milchreisImg}
             imgDescription={milchreis.imgDescription}
@@ -31,7 +31,7 @@ function App() {
             text={milchreis.text}
           />
         </div>
-        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp/recipeApp.html?recipe=steak')}>
           <Card
             img={steakImg}
             imgDescription={steak.imgDescription}
@@ -39,7 +39,7 @@ function App() {
             text={steak.text}
           />
         </div>
-        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp/recipeApp.html?recipe=curryrice')}>
           <Card
             img={curryriceImg}
             imgDescription={curryrice.imgDescription}
