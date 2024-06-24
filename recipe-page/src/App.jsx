@@ -3,19 +3,19 @@ import milchreisImg from './assets/milchreisImg.jpg';
 import steakImg from './assets/steakimg.png';
 import curryriceImg from './assets/curryreis-adobe-stock-ld1976.png';
 
-import Recipe from './Recipe';
 import omelette from './const/Omelette';
 import milchreis from './const/Milchreis';
 import steak from './const/Steak';
 import curryrice from './const/Curryrice';
 import Card from './card/Card';
 import './index.css'
+import Recipe from './Recipe';
 
 function App() {
   return (
     <>
       <div className='appElements'>
-        <div className='card'>
+        <div className='card' onClick={() => window.open('/recipe-page/src/recipeApp.html')}>
           <Card
             img={omeletteImg}
             imgDescription={omelette.imgDescription}
@@ -23,7 +23,7 @@ function App() {
             text={omelette.text}
           />
         </div>
-        <div className='card'>
+        <div className='card' onClick={() => window.open('https://www.google.com')}>
           <Card
             img={milchreisImg}
             imgDescription={milchreis.imgDescription}
@@ -31,7 +31,7 @@ function App() {
             text={milchreis.text}
           />
         </div>
-        <div className='card'>
+        <div className='card' onClick={() => window.open('recipeApp.html')}>
           <Card
             img={steakImg}
             imgDescription={steak.imgDescription}
@@ -39,8 +39,8 @@ function App() {
             text={steak.text}
           />
         </div>
-        <div className='card'>
-          <Card 
+        <div className='card' onClick={() => window.open('recipeApp.html')}>
+          <Card
             img={curryriceImg}
             imgDescription={curryrice.imgDescription}
             title={curryrice.title}

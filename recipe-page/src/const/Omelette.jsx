@@ -1,7 +1,7 @@
 
 const constants = {
-    title: "Simple Omelette Recipe",
-    text: "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.",
+    title: "Omelette Recipe",
+    text: "An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese or meats.",
     imageDescription: "Picture of an omelette",
     preptTime: ["Approximately 10 minutes", "5 minutes"],
     ingredients: ["2-3 large eggs", "Salt, to taste", "Pepper, to taste", "1 tablespoon butter or oil", "Optional fillings: cheese, diced vegetables, cooked meats, herbs"],

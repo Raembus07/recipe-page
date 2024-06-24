@@ -1,6 +1,6 @@
 const constants = {
     title: "Classic Steak Recipe",
-    text: "A simple and delicious recipe for a perfectly cooked steak. This dish is perfect for a special occasion or a hearty meal.",
+    text: "A simple and delicious recipe for a perfectly cooked steak. This dish is perfect for a special occasion or a hearty meal. It's incredibly flavorful and juicy.",
     imageDescription: "Picture of a cooked steak",
     prepTime: ["Approximately 20 minutes", "10 minutes"],
     ingredients: [
@@ -39,7 +39,7 @@ const constants = {
         },
         {
             title: "Enjoy:",
-            text: "Serve the steak with your favorite sides and enjoy your meal."
+            text: "Serve the steak with your favorite sides and enjoy your delicious meal."
         }
     ],
     nutrition: ["679kcal", "0g", "54g", "49g"]

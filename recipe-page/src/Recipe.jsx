@@ -1,5 +1,3 @@
-// src/Recipe.js
-
 import Title from "./recipeComponents/Title";
 import PrepTime from "./recipeComponents/PrepTime";
 import Ingredients from "./recipeComponents/Ingredients";
