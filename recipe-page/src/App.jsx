@@ -8,12 +8,13 @@ import milchreis from './const/Milkrice';
 import steak from './const/Steak';
 import curryrice from './const/Curryrice';
 import Card from './card/Card';
+import Header from './Header';
 import './index.css'
-import Recipe from './Recipe';
 
 function App() {
   return (
     <>
+      <Header />
       <div className='appElements'>
         <div className='card' onClick={() => window.open(`${window.location.origin}/recipe-page/src/recipeApp/recipeApp.html?recipe=omelette`)}>
           <Card
