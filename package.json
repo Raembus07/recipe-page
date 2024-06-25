@@ -1,0 +1,12 @@
+{
+  "homepage": "http://raembus07.github.io/recipe-page",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+ 
