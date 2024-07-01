@@ -39,7 +39,11 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-
+@media (max-width: 768px) {
+    .appElements {
+        grid-template-columns: 1fr;
+    }
+}
 .card{
     background-color: white;
 
